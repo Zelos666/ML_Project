@@ -1,2 +1,2 @@
-# ML_Project
-House Prediction through linear regression
+# flower_prediction_git
+Flower Prediction model Deployment
