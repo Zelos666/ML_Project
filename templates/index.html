@@ -60,14 +60,14 @@
 
 <body>
  <div class="login">
-	<h1>Flower Class Prediction</h1>
+	<h1>Profit</h1>
  
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}" method="post">
-    	<input type="text" name="Sepal_Length" placeholder="Sepal_Length" required="required" />
-        <input type="text" name="Sepal_Width" placeholder="Sepal_Width" required="required" />
-		<input type="text" name="Petal_Length" placeholder="Petal_Length" required="required" />
-		<input type="text" name="Petal_Width" placeholder="Petal_Width" required="required" />
+    	<input type="text" name="R&D Spend" placeholder="R&D Spend" required="required" />
+        <input type="text" name="Administration" placeholder="Administration" required="required" />
+		<input type="text" name="Marketing Spend" placeholder="Marketing Spend" required="required" />
+		<input type="text" name="State" placeholder="State" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
